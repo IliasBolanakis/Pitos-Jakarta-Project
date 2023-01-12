@@ -1,0 +1,31 @@
+<%@ page import="com.ilbolan.pitoswebproject.models.UserDAO" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
+<a class="logo" href="${pageContext.request.contextPath}/"><img src="${pageContext.request.contextPath}/images/logo.png" alt="logo"/></a>
+<h2 class="company"><a href="${pageContext.request.contextPath}/">Οι Πίτες του Πίτου</a></h2>
+<p class="tagline">Πάρε μου μια...πίτα!</p>
+<nav>
+    <input class="hamb-checkbox" type="checkbox" id="checkbox"/>
+    <label class="hamb-label" for="checkbox">
+        <span class="line1 hamb-line"></span>
+        <span class="line2 hamb-line"></span>
+        <span class="line3 hamb-line"></span>
+    </label>
+
+    <!-- The below code section checks if user is logged in to display either the login or the logout option -->
+    <%
+        String LogInOutURL = UserDAO.getUserBySession(request.getSession().getId()) == null ? "login" : "logout";
+        String LogInOutIcon = "L" + LogInOutURL.substring(1);
+
+        request.setAttribute("logInOutURL", LogInOutURL);
+        request.setAttribute("logInOutIcon", LogInOutIcon);
+    %>
+    <ul>
+        <li><a href="${pageContext.request.contextPath}/${pageContext.request.getAttribute("logInOutURL")}">${pageContext.request.getAttribute("logInOutIcon")}</a></li>
+        <li><a href="${pageContext.request.contextPath}/register">Εγγραφή</a></li>
+        <li><a href="${pageContext.request.contextPath}/store">Κατάστημα</a></li>
+        <li><a href="${pageContext.request.contextPath}/pies">Πίτες</a></li>
+        <li><a href="${pageContext.request.contextPath}/buy">Παραγγελία</a></li>
+        <li><a href="${pageContext.request.contextPath}/contact">Επικοινωνία</a></li>
+    </ul>
+</nav>
