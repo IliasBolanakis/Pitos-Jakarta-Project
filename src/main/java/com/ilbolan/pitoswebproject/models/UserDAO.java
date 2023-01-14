@@ -491,7 +491,7 @@ public class UserDAO {
 
             String query = "SELECT role.description AS role " +
                     "FROM user " +
-                    "JOIN user_role ON user.id  = user_role.role_id " +
+                    "JOIN user_role ON user.id  = user_role.user_id " +
                     "JOIN role ON user_role.role_id = role.role_id " +
                     "WHERE user.session = ?";
 
