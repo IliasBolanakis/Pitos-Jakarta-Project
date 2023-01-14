@@ -2,7 +2,7 @@
 A fictional pie store web project build with JakartaEE
 
 ## About The Project
-Pitos simulates a fully functioanl website of a pie store that supports the following functios:
+Pitos simulates a fully functional website of a pie store that supports the following functions:
 * A custom authentication/authorization mechanism for login & registration
 * Placing orders that are stored in the database
 * Informing the client through emails
