@@ -24,4 +24,4 @@ The database used is a simple relational MySQL database with the below structure
 * The entire page is in greek
 
 ## Authors
-* [Ilias Bolanakis] (https://github.com/IliasBolanakis)
+* Ilias Bolanakis (https://github.com/IliasBolanakis)
