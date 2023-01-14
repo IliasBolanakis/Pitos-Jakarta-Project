@@ -40,7 +40,7 @@ The database used is a simple relational MySQL database with the below structure
 ## Noteworthy Facts
 
 * A custom email validator was implemented that tries to perform actual email validation through DNS lookups (Not applicable in real world applications, for educational purposes only)
-* Not much emphasis was given on logging (just a simple Logger for JUL with a ConsoleHandler, To be improved) 
+* Not much emphasis was given on logging (just a simple Logger from JUL with a ConsoleHandler, To be improved) 
 * Some security measures where taken such as Hashing and salting for the user's password in the database and the implementation of a CSRF filter
 * The project never got deployed
 * The Front-End was not a priority for this project (some minor css and js for aesthetic purposes only)
