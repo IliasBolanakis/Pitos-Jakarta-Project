@@ -10,6 +10,20 @@ Pitos simulates a fully functional website of a pie store that supports the foll
 The goal was to create an introductory project to Back-End development on JakartaEE with the usage of Tomcat Server and
 traditional technologies like jsp files, WebServlets and JDBC to connect to the database
 
+## Web Page navigation & Instructions
+In the Bar on the common  header are available all the functionalities :
+
+* Login/Logout: Login and Logout forms (switches based on current user status, forgot password & password reset options available)
+* Εγγραφή: Registration form (Email validation required to complete registration)
+* Κατάστημα: Store Description page
+* Πίτες: All the avaiable pies & a short overview of each one
+* Παρεγγελία: Order form (uppon form submition email is sent to both admin & user)
+* Επικοινωνία : Contact Form (uppon form submition email is sent to both admin & user)
+
+Note: Another page is included not visible from the common header bar /admin. Only admins have access (Currently only two admin users), includes 2 commands
+
+![Στιγμιότυπο οθόνης (34)](https://user-images.githubusercontent.com/104007209/212487350-9f6588de-d576-4c80-8b76-f781ac614184.png)
+
 ## Database structure
 The database used is a simple relational MySQL database with the below structure:
 
