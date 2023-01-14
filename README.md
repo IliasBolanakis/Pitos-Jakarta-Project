@@ -35,12 +35,12 @@ The database used is a simple relational MySQL database with the below structure
 
 * Tomcat 10.1.0-M17
 * OpenJDK 17.0.2
-* MySQL 8.0.29
+* MySQL 8.0.30
 
 ## Noteworthy Facts
 
-* A custom email validator was implemented that tries to perform actual email validation through DNS lookups
-* Not much emphasis was given on logging (just a simple Logger for JUL with a ConsoleHandler)
+* A custom email validator was implemented that tries to perform actual email validation through DNS lookups (Not applicable in real world applications, for educational purposes only)
+* Not much emphasis was given on logging (just a simple Logger for JUL with a ConsoleHandler, To be improved) 
 * Some security measures where taken such as Hashing and salting for the user's password in the database and the implementation of a CSRF filter
 * The project never got deployed
 * The Front-End was not a priority for this project (some minor css and js for aesthetic purposes only)
