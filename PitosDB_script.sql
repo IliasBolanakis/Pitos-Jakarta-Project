@@ -1,4 +1,4 @@
--- Script for Pitos project database
+-- Script for Pitos-Web-Project database
 
 drop database if exists pitosdb;
 create database pitosdb;
