@@ -1,5 +1,5 @@
 # Pitos-Web-Project
-A fictional pie store web project build with JakartaEE
+A fictional pie store web project build on JakartaEE
 
 ## About The Project
 Pitos simulates a fully functional website of a pie store that supports the following functions:
@@ -7,8 +7,8 @@ Pitos simulates a fully functional website of a pie store that supports the foll
 * Placing orders that are stored in the database
 * Informing the client through emails
 
-The goal was to create an introductory project to Back-End development with JakartaEE with the usage of Tomcat Server and
-traditional technologies like jsp files, WebServlets, and JDBC to connect to the database
+The goal was to create an introductory project to Back-End development on JakartaEE with the usage of Tomcat Server and
+traditional technologies like jsp files, WebServlets and JDBC to connect to the database
 
 ## Database structure
 The database used is a simple relational MySQL database with the below structure:
