@@ -33,6 +33,7 @@ The database used is a simple relational MySQL database with the below structure
 
 ## Code Specifications
 
+* JakartaEE 9
 * Tomcat 10.1.0-M17
 * OpenJDK 17.0.2
 * MySQL 8.0.30
