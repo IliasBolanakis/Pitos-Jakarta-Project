@@ -2,7 +2,7 @@
 A fictional pie store web project build on JakartaEE
 
 ## About The Project
-Pitos simulates a fully functional website of a pie store that supports the following functions:
+Pitos simulates a fully functional website of a pie store that supports the following functionalities:
 
 * A custom authentication/authorization mechanism for login & registration
 * Placing orders that are stored in the database
@@ -51,4 +51,4 @@ The database used is a simple relational MySQL database with the below structure
 
 * Ilias Bolanakis (https://github.com/IliasBolanakis)
 
-12-1-2023
+2023-01-12
