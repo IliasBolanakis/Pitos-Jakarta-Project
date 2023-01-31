@@ -1,4 +1,4 @@
-# Pitos-Web-Project
+# Pitos-Jakarta-Project
 A fictional pie store web project build on JakartaEE
 
 ## About The Project
